@@ -1,0 +1,135 @@
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/***** Login *****/
+
+#login {
+    background-color: #1a1341;
+    color: #f2f2f2;
+    min-height: 100vh; /* 100% da altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#cadastro {
+    background-color: #1a1341;
+    color: #f2f2f2;
+    min-height: 100vh; /* 100% da altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+/* form */
+
+form  {
+    padding: 7% 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    
+}
+
+.card input {
+    background-color: rgba(18, 77, 119, 0.632); 
+    border-color: rgba(26, 19, 65, 0.8); 
+}
+
+.esq {
+    float: right;
+    color: #08a8eddd;
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+.esq:hover {
+    color: #08e1eddd;
+}
+
+#login .btn-custom {
+    color: white;
+    background-color: #c5df16;
+    border-color: #c5df16;
+    width: 100%;
+}
+
+#cadastro .btn-custom {
+    color: white;
+    background-color: #c5df16;
+    border-color: #c5df16;
+    width: 100%;
+}
+
+.acessar-p {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    background-color: rgba(3, 109, 180, 0.904);
+    border: none;
+    box-shadow: 0 2px 30px 0 rgba(200, 223, 247, 0.5);
+    color: white; 
+    display: inline-block; 
+}
+
+.acessar-p:hover{
+    background-color: rgba(6, 145, 238, 0.904);
+}
+
+.acessar-n {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    background-color: rgba(3, 63, 104, 0.466);
+    border: none;
+    box-shadow: 0 2px 30px 0 rgba(88, 149, 214, 0.5);
+    color: white; 
+    display: inline-block;
+}
+
+.acessar-n:hover{
+    background-color: rgba(1, 43, 71, 0.637);
+}
+
+
+.box{
+    background-color: rgba(0, 25, 78, 0.2)!important;
+    height: auto;
+    width: 40%;
+    margin: auto;
+    padding: 3% 0;
+}
+
+img {
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {  
+    form  {
+        padding: 3% 15%;
+    }
+
+    .esq {
+        float: left;
+    }
+
+    .navbar-nav .nav-item a.nav-link {
+        font-size: 15px;
+    }
+    
+ }
